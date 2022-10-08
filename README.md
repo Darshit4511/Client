@@ -9,7 +9,6 @@ Use npm install in root folder to install Node Modules
 
 ## Backend
 Backend is created with NodeJS, ExpressJS and hosted on Heroku.\
-Used MongoDB Atlas as online Database.
+Used MongoDB Atlas as online Database.\
 heroku link: https://criminal-profiling-server.herokuapp.com/
-
-## 
+ 

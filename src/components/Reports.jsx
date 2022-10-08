@@ -11,7 +11,8 @@ const Reports = () => {
         <AddBoxIcon className='m-2 text-green-500 hover:cursor-pointer'></AddBoxIcon>
       </div>
       <div className=" flex mt-2 p-2 h-[4rem] justify-between rounded-[12px] bg-slate-900">
-        <span className='pt-[9px]  h-[3rem] w-[7rem]  '>Search Report</span>
+        {/* <span className='pt-[9px]  h-[3rem] w-[7rem]  '>Search Report</span> */}
+        <input type={"text"} className="bg-slate-900 pt-[9px]  h-[3rem] w-[20rem] align-center"placeholder='Search Report' ></input>
         <FilterAltIcon className='m-2'></FilterAltIcon>
       </div>
       <Reportcard Id="2" Address="Maninagar St,Ahmedabad" Crime="Vehicle Stolen Report" Name="Alisha Wilson" Time="Yesterday, 2:17pm"></Reportcard>

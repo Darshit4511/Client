@@ -10,28 +10,30 @@ import Vehicles from './components/Vehicles';
 import Missingperson from './components/MissingPerson';
 import Case from './components/Case';
 import Signin from './components/Signin';
+import MissingPersonForm from './components/MissingPersonForm';
 
 
 function App() {
   return (
 
     <div className="App">
-     
+
 
       <Router>
-      <Header></Header>
-      <Sidebar></Sidebar>
+        <Header></Header>
+        <Sidebar></Sidebar>
         <Routes>
 
           <Route path="/" element={<Signin></Signin>} />
           <Route path="/dashboard" element={<Dashboard></Dashboard>} />
           <Route path="/profile" element={<Profile></Profile>} />
-          
+
           <Route path="/vehicles" element={<Vehicles></Vehicles>} />
           <Route path="/missingperson" element={<Missingperson></Missingperson>} />
 
           <Route path="/case" element={<Case></Case>} />
           <Route path="/report" element={<Report></Report>} />
+          <Route path="/form" element={<MissingPersonForm></MissingPersonForm>} />
 
         </Routes>
       </Router>

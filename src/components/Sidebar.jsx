@@ -10,6 +10,9 @@ import DescriptionIcon from '@mui/icons-material/Description';
 
 
 const Sidebar = () => {
+
+
+
     return (
         <nav className='primary-nav flex flex-col  sm:absolute top-1 md:top-[10rem] bottom-0 w-[320px] '>
             <div className="menu sidebar bg-black sm:m-4  lg:left-0 p-2 mt-[-3.5rem] md:mt-[1rem] text-white overflow-clip md:visible h-[100vh] "  >

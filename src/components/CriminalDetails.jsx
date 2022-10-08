@@ -3,7 +3,7 @@ import React from 'react'
 
 const CriminalDetails = ({ name, dob, contact, adhar, finger, area }) => {
     return (
-        <div className="CaserMoral flex flex-col h-[40rem]  bg-black rounded-[1rem] m-2 p-2 xl:w-[24rem] ">
+        <div className="CaserMoral flex flex-col h-[40rem]  bg-black rounded-[1rem] m-2 p-2 xl:w-[50rem] ">
             <div className=' text-center h-[3rem] bg-[#26003b]  rounded-[12px] p-2 w-[95%] ml-3 text-[1.5rem]'>{name}</div>
             <div className=" flex   mt-2 p-2 h-[4rem] text-center justify-center items-center flex-col">
 

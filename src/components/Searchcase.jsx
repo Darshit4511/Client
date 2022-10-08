@@ -12,7 +12,8 @@ const Searchcase = () => {
         <AddBoxIcon className='m-2 text-green-500 hover:cursor-pointer'></AddBoxIcon>
       </div>
       <div className=" flex mt-2 p-2 h-[4rem] justify-between rounded-[12px] bg-slate-900">
-        <span className='pt-[9px]  h-[3rem] w-[7rem]  '>Search Case</span>
+        {/* <span className='pt-[9px]  h-[3rem] w-[7rem]  '>Search Case</span> */}
+        <input type={"text"} className="bg-slate-900 h-[3rem] w-[40rem]" placeholder='Search Case' ></input>
         <FilterAltIcon className='m-2'></FilterAltIcon>
       </div>
       <Casecard CaseNum="124" Date="21-07-2021,7:12pm" Address="Maninagar St,Ahmedabad"></Casecard>

@@ -13,7 +13,8 @@ const Vehicles = () => {
         <AddBoxIcon className='m-2 text-green-500 hover:cursor-pointer'></AddBoxIcon>
       </div>
       <div className=" flex m-2 p-2 h-[4rem] justify-between rounded-[12px] bg-slate-900">
-        <span className='pt-[9px]  h-[3rem] w-[7rem]  '>Search Vehicle</span>
+      <input type={"text"} className="bg-slate-900 pt-[9px]  h-[3rem] w-[20rem] align-center" placeholder='Search Vehicle'></input>
+        {/* <span className='pt-[9px]  h-[3rem] w-[7rem]  '>Search Vehicle</span> */}
         <FilterAltIcon className='m-2'></FilterAltIcon>
 
       </div>

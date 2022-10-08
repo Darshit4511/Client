@@ -13,7 +13,7 @@ const Form = () => {
         type: "",
     });
     const createMissingPerson = () => {
-        axios.post("https://criminal-profiling-server.herokuapp.com/", MissingPerson).then(() => {
+        axios.post("https://criminal-profiling-server.herokuapp.com/missingPerson", MissingPerson).then(() => {
             window.location.reload(false);
         })
     };

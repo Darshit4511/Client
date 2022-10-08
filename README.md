@@ -4,7 +4,7 @@
 ## Frontend
 Frontend is made with ReactJS and Tailwind CSS and hosted on Netlify.\
 Netlify link: https://criminal-profiling-tool.netlify.app/ \
-\ Use npm install in root folder to install Node Modules
+Use npm install in root folder to install Node Modules
 
 
 ## Backend
